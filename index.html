@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Azerbaycan Beynelxalq Banki</title>
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/grid.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="icon" type="img/png" href="images/favicon.png">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+	<div id="main">
+		<div class="wrapper" >
+				<div class="row">
+					<div class="col4">
+						<div class="col6">
+							<div class="logoDiv">
+								<a href="">
+									<img src="images/img/logo.svg" alt="IBAR" class="logoSvg">
+								</a>
+							</div>
+						</div>
+						<div class="col3">
+							<h1 id="individual">
+								<a href="javascript:void(0)">Fərdi</a>
+							</h1>
+						</div>
+						<div class="col3">
+							<h1 id="corporative" >
+								<a href="#">Korporativ</a>
+							</h1>
+						</div>
+					</div>
+					<div class="col6 col_offset_2 menuRightBar">
+						<ul class="menuRight">
+							<li class="contactBtn"><a href="javascript:void(0)" onclick="showDivs(document.querySelector('#contactUs'))" >Bizimlə əlaqə</a></li>
+							<li class="onlineBank" ><a href="javascript:void(0)" onclick="showDivs(document.querySelector('#bankOnline'))"  >Bank online</a></li>
+							<li class="currency"><a href="#">usd</a></li>
+							<li class="buy"><a href="#">1.6700 alış<span> •</span></a></li>
+							<li class="sell"><a href="#">1.7400 satış</a></li>
+						</ul>
+						<div class="rightSide">
+							<a href="#">
+								<span class="internetBank" onclick="showDivs(document.querySelector('#internetBank'))" >internetBank</span>
+							</a>
+						</div>
+					</div>
+					<div class="middlerTitle">
+						<div class="hCaption">
+							<h2 class="hTitle"></h2>
+						</div>
+						<div class="hList">
+							<ul class="hUl">
+								<div class="col6">
+									<li><a href="javascript:void(0)" class="hLink"></a></li>
+									<li><a href="javascript:void(0)" class="hLink"></a></li>
+									<li><a href="javascript:void(0)" class="hLink"></a></li>
+									<li><a href="javascript:void(0)" class="hLink"></a></li>
+								</div>
+								<div class="col6">
+									<li><a href="javascript:void(0)" class="hLink"></a></li>
+									<li><a href="javascript:void(0)" class="hLink"></a></li>
+									<li><a href="javascript:void(0)" class="hLink"></a></li>
+									<li><a href="javascript:void(0)" class="hLink"></a></li>
+								</div>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="display: flex; justify-content: center;align-items: center;">
+					<div class="middleSection" style="width: 620px;height: 255px;">
+						<div class="col12">
+							<input type="text" value="" onblur=" this.value = '';" class="searchInput">
+							<span id="searchPlaceholder">Sizə necə kömək edə bilərik?</span>
+							<span class="searchIcon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<i class="fa fa-bars" aria-hidden="true"></i>
+							</span>
+							<div class="col11 searchTrick">
+								<ul>
+									<li>Meselen:</li>
+									<li><span onclick="newVal(this)" class="exVal">Valyuta</span></li>
+									<li><span onclick="newVal(this)" class="exVal">Kredit</span></li>
+									<li><span onclick="newVal(this)" class="exVal">Depozit</span></li>
+									<li><span onclick="newVal(this)" class="exVal">Kart</span></li>
+									<li><span onclick="newVal(this)" class="exVal">InternetBanking</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col8">
+							<div class="col3 ">
+										<div class="dots">
+											<span class="bullets" onclick="prevNext(1)"></span>
+											<span class="bullets" onclick="prevNext(2)"></span>
+											<span class="bullets" onclick="prevNext(3)"></span>
+										</div>
+								</div>
+							<div class="imageHolder">
+								<div class="imageOverlay">
+									<img src="images/500x230-1.jpg" alt="" class="slider">
+								</div>
+								
+							</div>
+						</div>
+						<div class="col3 detailsSection">
+							<a href="" class="detailsLink">
+								<div class="details">
+									<p class="payment">Ödənişlər aparın</p>
+									<p class="detailedInfo">Ətraflı</p>
+									<img src="images/picture.png" alt="" class="picture">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="services">
+						<div class="col5">
+						<div class="col12">
+							<ul class="servicesList">
+								<li><a href="">Haqqimizda</a></li>
+								<li><a href="">Xidmet sebekesi</a></li>
+								<li><a href="">Xeberler</a></li>
+								<li><a href="">Tarifler</a></li>
+								<li><a href="">Mezenneler</a></li>
+							</ul>
+						</div>
+						<div class="col12">
+							<div class="col8">
+								<p class="copyright">© Azərbaycan Beynəlxalq Bankı - Bütün hüquqlar qorunur </p>
+							</div>
+							<div class="col3">
+								<div class="jisImg">
+								<a href="">
+									<p>Created by</p>
+									<img src="images/img/jis.png" alt="">
+									<p>JIS</p>
+								</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col2">
+						<div class="corporates">
+							<ul>
+								<li><a href="">
+									<div class="vq"></div>
+								</a></li>
+								<li><a href="" >
+									<div class="adif"></div>
+								</a></li>
+								<li><a href="">
+									<div class="fimsa"></div>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col2 col_offset_1">
+						<div class="col10">
+							<div class="col10">
+								<div class="languages">
+									<ul>
+										<li><a href="">English</a></li>
+										<li><a href="">Russian</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col10">
+								<div class="socialIcons">
+									<ul>
+										<li><a href="">
+											<div class="facebook"></div>
+										</a></li>
+										<li><a href="">
+											<div class="instagram"></div>
+										</a></li>
+										<li><a href="">
+											<div class="twitter"></div>
+										</a></li>
+										<li><a href="">
+											<div class="youtube"></div>
+										</a></li>
+										<li><a href="">
+											<div class="linkedin"></div>
+										</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col1">
+							<div class="call">
+								<img src="images/img/call.png" alt="">
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+		</div>
+		<div id="changeBg">
+		</div>
+	</div>
+	
+	<div id="internetBank">
+		<div class="row internet">
+			<div class="col10">
+				<p class="internetCaption">
+					InternetBank
+				</p>
+			</div>
+			<div class="col2 close">
+				<a href="javascript:void(0)"><img src="images/img/close.svg" alt="" class="closeDivfirst" onclick="closeDivs(document.querySelector('#internetBank'))"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col12">
+				<ul class="bankTypes">
+					<li><a href="#">Fərdi InternetBank</a></li>
+					<li><a href="#">Korporativ InternetBank</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="contactUs" >
+		<div class="row contact">
+			<div class="col10">
+				<p class="contactCaption">
+				<span class="leftArrow">
+				<i class="fa fa-angle-left" aria-hidden="true"></i></span>
+					<span class="conCapP">
+						Bizimlə Əlaqə
+					</span>
+				</p>
+			</div>
+			<div class="col2 close">
+				<a href="javascript:void(0)"><img src="images/img/close.svg" alt="" class="closeDivsecond" onclick="closeDivs(document.querySelector('#contactUs'))"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col12" >
+				<ul class="contactTypes">
+					<li><a href="#">Bizə zəng edin</a></li>
+					<li class="writeUs"><a href="#">Bizə yazın</a></li>
+					<li><a href="#">Online chat</a></li>
+					<li><a href="#">Facebookda soruşun</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col12">
+			<div class="writeUsForm">
+				<h4 class="writeUsCaption">Bize yazin</h4>
+				<form action="">
+					<div class="formLine">
+                        <label>Ad və soyadınız</label>
+                        <input type="text" name="fullname" placeholder="Ad və soyadınızı daxil edin">
+                    </div>
+                    <div class="formLine">
+                        <label>Bankın müştərisisinizmi?</label><br>
+                        <div class="choose">
+                            <label>
+                                <input type="radio" name="customer" value="1" checked="">
+                                <span>Bəli</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="customer" value="0">
+                                <span>Xeyr</span>
+                            </label>
+                         </div>
+                    </div>
+                    <div class="clearFix"></div>
+                    <div class="formLine">
+                        <label>Mobil telefon nömrəsi</label>
+                        <input type="text" name="phone" placeholder="Mobil telefon nömrənizi daxil edin" class="phoneMask">
+                    </div>
+                    <div class="formLine">
+                        <label>Email</label>
+                        <input type="text" name="email" placeholder="Email daxil edin">
+                    </div>
+                    <div class="formLine">
+                        <label>Müraciətinizin mövzusu</label>
+                        <select>
+                        	<option>Bank kartları</option>
+                        	<option>Kreditlər</option>
+                        	<option>Əmanətlər</option>
+                        	<option>Köçürmələr</option>
+                        	<option>Elektron bankçılıq</option>
+                        	<option>Digər</option>
+                        </select>
+                    </div>
+                    <div class="formLine">
+                        <label>Müraciət</label>
+                        <textarea name="message" placeholder="Müraciətinizi daxil edin"></textarea>
+                    </div>
+				</form>
+				<button class="comBtn">Tamamlamaq</button>
+			</div>
+			</div>
+	</div>
+
+	<div id="bankOnline" >
+		<div class="row bank">
+			<div class="col10">
+				<p class="bankCaption">
+					Bank Online
+				</p>
+			</div>
+			<div class="col2 close " >
+				<a href="javascript:void(0)" onclick="closeDivs(document.querySelector('#bankOnline'))"><img src="images/img/close.svg" alt=""  ></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col12">
+				<ul class="bankTypes">
+					<li><a href="#">Ödənişlər aparın</a></li>
+					<li><a href="#">Kredit ödəyin</a></li>
+					<li><a href="#">Cari hesabla pul köçürün</a></li>
+					<li><a href="#">Kart sifariş edin</a></li>
+					<li><a href="">Kredit sifariş edin</a></li>
+					<li><a href="">Arayış sifariş edin</a></li>
+					<li><a href="">R@ndevu</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="script/script.js"></script>
+</html>

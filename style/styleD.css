@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 't';
+    src: url(font/latest_fonts/t-webfont.eot);
+    src: url(font/latest_fonts/t-webfontd41d.eot?#iefix) format('embedded-opentype'), url(font/latest_fonts/t-webfont.html) format('woff2'), url(font/latest_fonts/t-webfont.woff) format('woff'), url(font/latest_fonts/t-webfont.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+html, body{
+	font-family: 't';
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+#depozitMain{
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top:0;
+	z-index: 0;
+}
+.logoDiv{
+	width: 200px;
+	height: 50px;
+}
+.logoSvg{
+	width: 100%;
+}
+#individual, #corporative{
+	text-align: center;
+}
+#individual a,#corporative a{
+	font-size: 23px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #fff;
+}
+.active a{
+	background: #5575b7;
+	padding:10px;
+	border-radius: 5px;
+}
+.menuRightBar{
+	vertical-align: baseline;
+	line-height: 50px;
+	text-align: center;
+	align-items: center;
+	font-size: 15px;
+	position: relative;
+	z-index: 7568;
+}
+.menuRight li{
+	margin-right: 20px;
+	float: left;
+}
+.menuRight li a{
+	color: #fff;
+}
+.currency a,.buy a,.sell a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.rightSide a{
+	text-decoration: none;
+	color: #fff;
+}
+.rightSide a span{
+	padding: 10px;
+	text-transform: capitalize;
+	border:2px solid #b7c4e0;
+	border-radius:20px;
+}
+.rightSide a span:hover{
+	background: #b7c4e0;
+}
+.depozitOverlay{
+	width: 100%;
+	height: 100%;
+	background: #5e7097;
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 12;
+}
+.header{
+	position: relative;
+	z-index: 15;
+}
+.eDepo,.without,.conSpan{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 98px;
+	color: #fff;
+	position: relative;
+	z-index: 15;
+	text-decoration: none;
+}
+.eDepo{
+	margin-top: 10%;
+}
+.without{
+	font-size: 16px !important;
+	margin-top: 2%;
+}
+.conditions{
+	background: #616e90;
+	width: 535px;
+	height: 60px;
+	border-radius: 5px;
+}
+.conList{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1%;
+}
+.conList li{
+	/*margin-top: 1%;*/
+}
+.conditions a{
+	text-decoration: none;
+	float: left;
+	padding: 22px 10px;
+	text-align: center;
+}
+.conditions a:hover{
+	background: #576280;
+}
+.conSpan{
+	font-size: 15px !important;
+}
+.calcSide{
+	margin-top: 20%;
+}
+.depoLeft{
+	background: rgba(255, 255, 255, .1);
+	width: 200px;
+	border-radius: 10px;
+    position: relative;
+    top: 2%;
+    margin: 20px 0 0;
+    padding: 0 0 20px;
+    z-index: 2;
+	box-shadow: 0 60px 60px rgba(0, 0, 0, .2);
+}
+.depoList li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+    display: block;
+    padding: 7px 20px;
+    /*background: rgba(255, 255, 255, 0);*/
+    transition: all .3s ease-out;
+}
+.depoList li a:active,
+.depoList li a:hover{
+	background: #8da2ce;
+}
+.depoListActiv{
+	background: #8da2ce;
+}
+.leftCap{
+	color: #fff;
+    padding: 15px 20px;
+    display: block;
+    font-size: 1.5em;
+}
+#depoRight{
+	width: 850px;
+    background: #fff;
+    border-radius: 10px;
+}
+#conditions,#subscraption,#rates,#calculator{
+	color: #1e2126;
+	padding: 40px;
+	position: relative;
+}
+.rightCap,.calcCap{
+	color: #2e56a6;
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+.rightTitle{
+	margin: 10px 0;
+    font-weight: bolder;
+}
+.rightArt{
+	line-height: 22pt;
+    font-size: 1.1em;
+}
+.rightArt:last-child>ul li{
+	padding: 5px 0 5px 35px;
+    position: relative;
+}
+.rightArt:nth-child(4)>ul li:before{
+	width: 25px;
+    height: 1px;
+    background: #1e2126;
+    display: block;
+    content: '';
+    position: absolute;
+    font-weight: bolder;
+    top: 16px;
+    margin: 0;
+    left: 0;
+    opacity: .8;
+}
+table{
+	width: 100%;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .05);
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+table td{
+	border: 1px solid rgba(0, 0, 0, .05);
+    padding: 20px;
+}
+#calculator{
+	background: url(../images/img/calc_bg.png) center center no-repeat #2b487f;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 0 7px 7px;
+    padding: 40px 0 0 40px;
+    height: 300px;
+    color: #fff;
+}
+.calcCap{
+	color: #fff;
+	line-height: 22pt;
+    font-size: 1.1em;
+}
+.rateCap{
+	line-height: 22pt;
+    font-size: 1.1em;
+}
+.amount, .period, #calcPayment,.selectCurr,.percentTotal,.percentMonth,.percentYear, u{
+	color: #a4b0c8;
+	font-size: 49px;
+}
+.amount{
+	float: left;
+}
+.selectCurr:after{
+	clear: both;
+}
+.selectCurr{
+	font-size: 21px;
+	margin-left: 10px;
+}
+.selectCurr ul li{
+	margin: 3px;
+	padding-left: 5px;
+}
+#calcPayment{
+	background: transparent;
+	border:none;
+	background: url(../images/img/pick_select.png) 100% no-repeat;
+	background-size: 10px;
+	height: 72px;
+	border-bottom: 3px solid rgba(0, 0, 0, .1);
+	padding: 0 40px 0 0;
+	outline: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+}
+.calcResult{
+	background: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+.calcResult>.col4{
+	width: 230px;
+	margin: 0 50px 0 0;
+    white-space: nowrap;
+    vertical-align: top;
+    padding: 10px 20px;
+}
+.percentTotal,.percentMonth,.percentYear{
+	font-size: 40px;
+}
+u{
+	font-size: 20px;
+	text-decoration: none;
+}
+#usd,#azn{
+	cursor: pointer;
+}
+#usd{
+	opacity: .5;
+}
+.curSelected{
+	opacity: 1;
+}
+.curUnSelected{
+	opacity: .5;
+}
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  
+}
+input[type=range]:last-child{
+	width: 90%!important;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #3071A9;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 50% solid #000000;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+  
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #3071A9;
+}
